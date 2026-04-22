@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="ER-lab2-korrigerad" id="corrected">
-    <mxGraphModel dx="2468" dy="2278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1700" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -268,14 +268,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ul1ITCA3lHxiid-5hv8a-10" edge="1" parent="1" source="c93" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Ul1ITCA3lHxiid-5hv8a-9">
+        <mxCell id="Ul1ITCA3lHxiid-5hv8a-25" edge="1" parent="1" source="c93" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="Ul1ITCA3lHxiid-5hv8a-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;" value="Föremål" vertex="1">
-          <mxGeometry height="50" width="150" x="1450" y="160" as="geometry" />
+          <mxGeometry height="50" width="150" x="1440" y="210" as="geometry" />
         </mxCell>
         <mxCell id="c94" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;rotation=-5;" value="&lt;u&gt;Namn&lt;/u&gt;" vertex="1">
-          <mxGeometry height="50" width="120" x="1250" y="180" as="geometry" />
+          <mxGeometry height="50" width="120" x="1260" y="280" as="geometry" />
         </mxCell>
         <mxCell id="c95" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;" value="Beskrivning" vertex="1">
           <mxGeometry height="50" width="130" x="1650" y="90" as="geometry" />
@@ -383,9 +383,6 @@
         <mxCell id="Ul1ITCA3lHxiid-5hv8a-1" parent="1" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="Äger" vertex="1">
           <mxGeometry height="60" width="120" x="430" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="Ul1ITCA3lHxiid-5hv8a-9" parent="1" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;" value="Typ(Vapen, Rustning, Trolldryck)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="200" x="1260" y="60" as="geometry" />
-        </mxCell>
         <mxCell id="Ul1ITCA3lHxiid-5hv8a-11" edge="1" parent="1" source="c48" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c88" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="580" y="1310" as="sourcePoint" />
@@ -399,6 +396,26 @@
         </mxCell>
         <mxCell id="Ul1ITCA3lHxiid-5hv8a-14" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="Är av typ" vertex="1">
           <mxGeometry height="60" width="120" x="1860" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul1ITCA3lHxiid-5hv8a-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;" value="Typ" vertex="1">
+          <mxGeometry height="50" width="110" x="1300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul1ITCA3lHxiid-5hv8a-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;" value="&lt;u&gt;Typnamn&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="1460" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul1ITCA3lHxiid-5hv8a-20" edge="1" parent="1" source="Ul1ITCA3lHxiid-5hv8a-18" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;edgeStyle=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Ul1ITCA3lHxiid-5hv8a-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul1ITCA3lHxiid-5hv8a-21" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;" value="är av" vertex="1">
+          <mxGeometry height="55" width="110" x="1310" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul1ITCA3lHxiid-5hv8a-22" edge="1" parent="1" source="Ul1ITCA3lHxiid-5hv8a-21" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;edgeStyle=none;shape=link;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Ul1ITCA3lHxiid-5hv8a-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul1ITCA3lHxiid-5hv8a-23" connectable="0" parent="Ul1ITCA3lHxiid-5hv8a-22" style="resizable=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
