@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="ER-lab2-korrigerad" id="corrected">
-    <mxGraphModel dx="1793" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1700" math="0" shadow="0">
+    <mxGraphModel dx="634" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -207,8 +207,11 @@
         <mxCell id="c67" edge="1" parent="1" source="c63" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;edgeStyle=none;" target="c65" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ul1ITCA3lHxiid-5hv8a-32" edge="1" parent="1" source="c74" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="Ul1ITCA3lHxiid-5hv8a-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c74" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;" value="Stig" vertex="1">
-          <mxGeometry height="60" width="130" x="1070" y="985" as="geometry" />
+          <mxGeometry height="60" width="130" x="1080" y="1005" as="geometry" />
         </mxCell>
         <mxCell id="c75" edge="1" parent="1" source="c63" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;edgeStyle=none;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c74" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -381,7 +384,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ul1ITCA3lHxiid-5hv8a-1" parent="1" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="Äger" vertex="1">
-          <mxGeometry height="60" width="120" x="430" y="500" as="geometry" />
+          <mxGeometry height="60" width="120" x="436" y="480" as="geometry" />
         </mxCell>
         <mxCell id="Ul1ITCA3lHxiid-5hv8a-11" edge="1" parent="1" source="c48" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c88" value="">
           <mxGeometry relative="1" as="geometry">
@@ -416,6 +419,9 @@
           <mxGeometry relative="1" x="0.7" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ul1ITCA3lHxiid-5hv8a-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#ffffff;strokeColor=#000000;" value="&lt;u&gt;ID&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="1030" y="1110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
